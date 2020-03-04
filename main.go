@@ -11,7 +11,7 @@ import (
 // DB 数据库模型
 var DB *sqlx.DB
 
-const dsn = "root:ectripaes2013@tcp(202.96.155.121:3306)/golist"
+const dsn = "root:123456@tcp(127.0.0.1:3306)/golist"
 
 type user struct {
 	ID   int    `json:"id" db:"id"`
